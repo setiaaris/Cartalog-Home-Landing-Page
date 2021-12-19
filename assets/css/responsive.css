@@ -1,0 +1,982 @@
+/*------GENERAL------*/
+
+/*BUTTONS*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .btn-stroke {
+        font-size: 18px;
+    }
+    
+    .btn-drop {
+        font-size: 16px;
+        padding: 5px 60px 5px 10px;
+    }
+}
+
+/*CONTAINER*/
+@media (max-width: 992px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .wrapper-nav {
+        width: 95%;
+    }
+}
+
+/*NAVBAR*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .navbar .wrapper-nav .logo {
+        margin-right: 5%;
+    }
+    
+    .navbar .wrapper-nav .search {
+        margin: 0 10px;
+    }
+    
+    .navbar .wrapper-nav ul li a {
+        font-size: 18px;
+    }
+    
+    .navbar .sidebar ul li a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .navbar .wrapper-nav ul li a {
+        font-size: 14px;
+    }
+    
+    .navbar .wrapper-nav ul li:first-child .hvr {
+        width: 104px;
+    }
+    
+    .navbar .wrapper-nav ul li:nth-child(2) .hvr {
+        width: 52px;
+    }
+    
+    .navbar .wrapper-nav ul li:nth-child(3) .hvr {
+        width: 110px;
+    }
+    
+    .navbar .wrapper-nav ul li:nth-child(4) .hvr {
+        width: 62px;
+    }
+    
+    .navbar .wrapper-nav .profile h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .navbar .wrapper-nav ul {
+        display: none;
+    }
+    
+    .navbar .wrapper-nav .notif {
+        padding-top: 2px;
+    }
+    
+    .navbar .wrapper-nav .profile {
+        display: none;
+    }
+    
+    .navbar .wrapper-nav .logo {
+        margin-right: 20px;
+    }
+    
+    .navbar .sidebar {
+        top: 68px;
+    }
+    
+    .navbar .sidebar .btn-stroke {
+        display: block;
+    }
+    
+    .navbar .sidebar ul li.rspv {
+        display: block;
+    }
+}
+
+@media (max-width: 540px) {
+    .navbar .wrapper-nav .search {
+        display: none;
+    }
+    
+    .navbar .wrapper-nav .search-rspv {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .navbar .wrapper-nav .notif span {
+        font-size: 23px;
+    }
+}
+
+/*FOOTER*/ 
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    footer .wrapper .head .detail h2 {
+        font-size: 50px;
+    }
+    
+    footer .wrapper .mid .left .menus .lists h5 {
+        font-size: 18px;
+    }
+    
+    footer .wrapper .mid .left .menus .lists ul li a {
+        font-size: 14px;
+    }
+    
+    footer .wrapper .bottom .rights p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1160px) {
+    footer .wrapper .mid .left .menus .lists {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    footer .wrapper .mid .left {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1030px) {
+    footer {
+        background: none;
+    }
+    
+    footer .wrapper .head {
+        display: block;
+    }
+    
+    footer .wrapper .head .detail {
+        margin-left: auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    footer .wrapper .strip {
+        display: none;
+    }
+    
+    footer .wrapper .mid {
+        display: none;
+    }
+    
+    footer .wrapper .bottom {
+        display: none;
+    }
+    
+    footer .infos {
+        display: block;
+    }
+    
+    footer .apps-d {
+        display: block;
+    }
+    
+    footer .socmed-rspv {
+        display: block;
+    }
+    
+    footer .rights-rspv {
+        display: block;
+    }
+    
+    footer .wrapper .head .detail h2 {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+    
+    footer .wrapper .head .detail .btn-stroke {
+        font-size: 12px;
+        padding: 8px 48px;
+    }
+}
+
+/*------LANDING PAGE------*/
+
+/*NAV ACTIVE*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .nav-active .sign .strip {
+        width: 3px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .nav-active {
+        display: none;
+    }
+}
+
+/*HEADER*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .header .bottom .hdr {
+        border-radius: 45px;
+        padding: 18px 52px;
+    }
+    
+    .header .bottom .hdr span {
+        font-size: 25px;
+    }
+    
+    .header .bottom .hdr p {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .head span {
+        font-size: 14px;
+    }
+    
+    .header .head h1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        width: 100%;
+        height: 600px;
+        background: url(../img/header-rspv.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin: auto;
+        position: relative;
+    }
+    
+    .header .bottom .hdr {
+        margin: auto;
+    }
+    
+    .header .bottom .hdr p {
+        font-size: 15px;
+        margin-right: 13px;
+    }
+    
+    .header .bottom .hdr span {
+        font-size: 15px;
+        transition: all 300ms ease-in-out;
+    }
+    
+    .header .bottom {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .header {
+        height: 500px;
+    }
+    
+    .header .bottom .hdr {
+        display: block;
+        align-items: center;
+        padding: 10px 32px;
+        transition: all 300ms ease-in-out;
+    }
+    
+    .header .bottom .hdr p {
+        font-size: 12px;
+        margin-right: 13px;
+    }
+}
+
+@media (max-width: 340px) {
+    .header .head h1 {
+        font-size: 22px;
+    }
+}
+
+/*CARTALOG GARAGE*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .cartgarage {
+        margin-top: 38px;
+    }
+    
+    .cartgarage .wrapper .bottom .left span {
+        font-size: 14px;
+    }
+    
+    .cartgarage .wrapper .left h3 {
+        font-size: 36px !important;
+    }
+
+    .cartgarage .wrapper .left p {
+        font-size: 18px !important
+    }
+    
+    .cartgarage .wrapper .bottom .left h3 {
+        font-size: 36px;
+    }
+
+    .cartgarage .wrapper .bottom .right p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .cartgarage {
+        margin-bottom: 0;
+    }
+    
+    .cartgarage .wrapper .head {
+        display: none;
+    }
+    
+    .cartgarage .wrapper .bottom {
+        display: none;
+    }
+    
+    .cartgarage .wrapper .rspv {
+        display: block;
+    }
+    
+    .cartgarage .infos {
+        display: block;
+    }
+}
+
+
+/*RISET AND TESTIMONI*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .riset-testi .wrapper .content-flex .contents .capts h4 {
+        font-size: 25px;
+    }
+
+    .riset-testi .wrapper .content-flex .contents .capts p {
+        font-size: 18px;
+    }
+    
+    .riset-testi .wrapper .content-flex .contents .separator {
+        height: 125px;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset h3 {
+        font-size: 36px;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .riset-testi .bg-riset {
+        width: 75%;
+    }
+    
+    .riset-testi .wrapper .content-flex .contents {
+        width: 80%;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset {
+        width: 20%;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .riset-testi .bg-riset {
+        width: 76%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .riset-testi {
+        background: #FBFBFB;
+        height: auto;
+    }
+    
+    .riset-testi .rspv {
+        display: block;
+    }
+    
+    .riset-testi .wrapper .content-flex {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    
+    .riset-testi .wrapper .content-flex .contents {
+        display: none;
+    }
+    
+    .riset-testi .bg-riset {
+        width: 100%;
+        display: block;
+        position: unset;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset {
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 70px 0;
+    }
+    
+    .riset-testi .bg-riset img {
+        height: 538px;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset .strip {
+        display: none;
+    }
+    
+    .riset-testi .infos {
+        display: block;
+    }
+    
+    .riset-testi .rspv .head p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset p {
+        font-weight: 400;
+    }
+    
+    .riset-testi .rspv .head h3 {
+        font-size: 25px;
+        margin: 4px auto 16px auto;
+    }
+    
+    .riset-testi .rspv .head span {
+        font-size: 10px;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset h3 {
+        font-size: 25px;
+    }
+    
+    .riset-testi .wrapper .content-flex .riset .btn-stroke {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .riset-testi .bg-riset img {
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 400px) {
+    .riset-testi .rspv .head h3, .riset-testi .wrapper .content-flex .riset h3 {
+        font-size: 22px;
+    }
+    
+    .riset-testi .rspv .head p, .riset-testi .wrapper .content-flex .riset p {
+        font-size: 14px;
+    }
+}
+
+/*MOBIL IMPIAN*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .dream-car .wrapper .head .left h6 {
+        font-size: 25px;
+    }
+    
+    .dream-car .wrapper .head .left h3 {
+        font-size: 36px;
+    }
+    
+    .dream-car .wrapper .head .right p {
+        font-size: 18px;
+    }
+    
+    .dream-car .wrapper .brands .nav-tabs .nav-link {
+        font-size: 18px;
+    }
+    
+    .dream-car .wrapper .brands .all-brands .one .brand p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .dream-car .hdr {
+        display: none;
+    }
+    
+    .dream-car .hdr-rspv {
+        display: block;
+    }
+    
+    .dream-car .wrapper .head {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 130px;
+        margin-bottom: 130px;
+    }
+    
+    .dream-car .wrapper .head .left {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .dream-car .wrapper .brands .all-brands {
+        display: none;
+    }
+    
+    .dream-car .swiper-container {
+        display: block;
+    }
+    
+    .dream-car .wrapper .seemore {
+        display: none;
+    }
+    
+    .dream-car .wrapper .head .right p {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    
+    .dream-car .wrapper .head .left h3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dream-car .wrapper .brands .nav-tabs .nav-link {
+        padding: 9px 20px;
+    }
+    
+    .dream-car .swiper-container .brands-rspv .one:nth-child(2), .dream-car .swiper-container .brands-rspv .one:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .dream-car .wrapper .head .left h3 {
+        font-size: 22px;
+    }
+}
+
+/*NEWS*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .news .wrapper .head h6 {
+        font-size: 25px;
+    }
+    
+    .news .wrapper .head h3 {
+        font-size: 36px;
+    }
+    
+    .news .wrapper .main-news .capts h4 {
+        font-size: 36px;
+    }
+    
+    .news .wrapper .main-news .capts span {
+        font-size: 14px;
+    }
+
+    .news .wrapper .main-news .capts p {
+        font-size: 18px;
+    }
+    
+    .news .wrapper .others .another .capt p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1253px) {
+    .news .wrapper .others .another:last-child {
+        margin-right: 0;
+        display: none;
+    }
+}
+
+@media (max-width: 1030px) {
+    .news .wrapper .head h6 {
+        display: none;
+    }
+
+    .news .wrapper .head h3 {
+        display: none;
+    }
+
+    .news .wrapper .head h3.rspv {
+        display: block;
+    }
+    
+    .news .wrapper .main-news {
+        display: block;
+    }
+    
+    .news .wrapper .main-news .photo {
+        width: 100%;
+    }
+    
+    .news .wrapper .main-news .capts {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+    .news .wrapper .strip {
+        display: none;
+    }
+    
+    .news .wrapper .others {
+        display: none;
+    }
+    
+    .news .wrapper .seemore {
+        display: none;
+    }
+    
+    .news .wrapper .head-rspv h3.rspv {
+        display: block;
+        float: left;
+    }
+    
+    .news .wrapper .head-rspv {
+        display: block;
+        align-items: center;
+        vertical-align: middle;
+    }
+    
+    .news .wrapper .head-rspv a {
+        display: block;
+    }
+    
+    .news .news-rspv {
+        display: block;
+    }
+    
+    .news .wrapper .main-news .photo img {
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .news .wrapper .main-news .capts h4 {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    .news .wrapper .main-news .capts p {
+        font-size: 13px;
+    }
+    
+    .news .wrapper .main-news .capts .btn-stroke {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .news .swiper-wrapper {
+        left: -34%;
+    }
+}
+
+@media only screen and (max-width: 1030px) and (min-width: 720px) {
+    .news .swiper-slide {
+        width: 240px !important;
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 680px) {
+    .news .swiper-slide {
+        width: 218px !important;
+    }
+}
+
+@media only screen and (max-width: 680px) and (min-width: 630px) {
+    .news .swiper-slide {
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 630px) {
+    .news .swiper-slide {
+        width: auto;
+    }
+    
+    .news .news-rspv {
+        display: none;
+    }
+    
+    .news .wrapper .head-rspv h3.rspv {
+        display: none;
+    }
+    
+    .news .wrapper .head-rspv {
+        margin-top: -52px;
+        margin-bottom: 100px;
+    }
+    
+    .car-inspect .swiper-slide .rspv .detail:nth-child(2), .car-inspect .swiper-slide .rspv .detail:nth-child(3) {
+        display: none;
+    }
+    
+    .car-inspect .wrapper .head {
+        text-align: center;
+    }
+    
+    .car-inspect .swiper-slide .rspv .detail {
+        text-align: center;
+        margin-left: auto !important;
+    }
+}
+
+/*KENDARAAN INSPEKSI*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .car-inspect .wrapper .head h6 {
+        font-size: 25px;
+    }
+    
+    .car-inspect .wrapper .head h3 {
+        font-size: 36px;
+    }
+    
+    .car-inspect .wrapper .contents .detail .dtl h4 {
+        font-size: 25px;
+    }
+    
+    .car-inspect .wrapper .contents .detail .dtl p {
+        font-size: 18px;
+    }
+    
+    .car-inspect .wrapper .head {
+        width: 84%;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1400px) {
+    .car-inspect .wrapper .head {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1400px) {
+    .car-inspect .wrapper .head {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .car-inspect .wrapper .head {
+        width: 87%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .car-inspect .wrapper .head {
+        width: 88%;
+    }
+}
+
+@media (max-width: 1110px) {
+    .car-inspect .wrapper .head {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .car-inspect .wrapper .contents {
+        display: none;
+    }
+    
+    .car-inspect .wrapper .contents-rspv {
+        display: block;
+    }
+    
+    .car-inspect .wrapper .seemore {
+        display: none;
+    }
+    
+    .car-inspect .wrapper .head {
+        width: 100%;
+    }
+    
+    .car-inspect .wrapper .head h6 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .car-inspect .wrapper .head h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .car-inspect .swiper-slide .rspv .detail .dtl h4 {
+        font-size: 17px;
+        font-weight: 700;
+        color: #0C0C0C;
+    }
+    
+    .car-inspect .swiper-slide .rspv .detail .dtl p {
+        font-size: 13px;
+    }
+}
+
+/*KENDARAAN REKOMENDASI*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .popular-car .wrapper .head h6 {
+        font-size: 25px;
+    }
+    
+    .popular-car .wrapper .head h3 {
+        font-size: 36px;
+    }
+    
+    .popular-car .wrapper .contents .detail .dtl h4 {
+        font-size: 25px; 
+    }
+
+    .popular-car .wrapper .contents .detail .dtl p {
+        font-size: 18px;
+    }
+    
+    .popular-car .wrapper .head {
+        width: 84%;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1400px) {
+    .popular-car .wrapper .head {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1400px) {
+    .popular-car .wrapper .head {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .popular-car .wrapper .head {
+        width: 87%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .popular-car .wrapper .head {
+        width: 88%;
+    }
+}
+
+@media (max-width: 1110px) {
+    .popular-car .wrapper .head {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .popular-car .wrapper .contents {
+        display: none;
+    }
+    
+    .popular-car .wrapper .contents-rspv {
+        display: block;
+    }
+    
+    .popular-car .wrapper .head {
+        width: 100%;
+    }
+    
+    .popular-car .wrapper .seemore {
+        display: none;
+    }
+    
+    .popular-car .wrapper .head h6 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .popular-car .wrapper .head h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .popular-car .swiper-slide .rspv .detail .dtl h4 {
+        font-size: 17px;
+        font-weight: 700;
+        color: #0C0C0C;
+    }
+    
+    .popular-car .swiper-slide .rspv .detail .dtl p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 630px) {
+    .popular-car .swiper-slide .rspv .detail:nth-child(2), .popular-car .swiper-slide .rspv .detail:nth-child(3) {
+        display: none;
+    }
+    
+    .popular-car .wrapper .head {
+        text-align: center;
+    }
+    
+    .popular-car .swiper-slide .rspv .detail {
+        text-align: center;
+        margin-left: auto !important;
+    }
+}
+
+
+/*------HARGA CARTALOG------*/
+
+/*PRICE RANGE*/
+@media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .price-range .psection .p-range .head h2 {
+        font-size: 36px;
+    }
+    
+    .price-range .psection .p-range .head p {
+        font-size: 18px;
+    }
+    
+    .price-range .psection .p-range .details h4 {
+        font-size: 25px;
+    }
+    
+    .price-range .psection .p-range .details .dtl .left label {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
